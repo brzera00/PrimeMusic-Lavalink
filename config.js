@@ -37,11 +37,14 @@ module.exports = {
    // Lavalink Server Details
 
   nodes: [
-    {
-Host : lava-v3.ajieblogs.eu.org
-Port : 443
-Password : "https://dsc.gg/ajidevserver"
-Secure : true  
+ {
+      name: "Server",
+        host: "lava.inzeworld.com",
+        port: 3128,
+        password: "saher.inzeworld.com",
+        reconnectTimeout: 5000,
+        reconnectTries: Infinity,
+        secure: false
     },
  ]
 }
