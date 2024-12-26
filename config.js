@@ -37,15 +37,13 @@ module.exports = {
    // Lavalink Server Details
 
   nodes: [
- {
-      name: "Server",
-        host: "lava.inzeworld.com",
-        port: 3128,
-        password: "saher.inzeworld.com",
-        reconnectTimeout: 5000,
-        reconnectTries: Infinity,
-        secure: false
-    },
+{
+  "identifier": "INZEWORLD.COM (DE)",
+  "password": "saher.inzeworld.com",
+  "host": "lava.inzeworld.com",
+  "port": 3128,
+  "secure": false
+}
  ]
 }
 /*
