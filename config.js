@@ -38,13 +38,13 @@ module.exports = {
 
   nodes: [
 {
-        name: "AjieDev - Lavalink [Non SSL]",
-        host: "lava-v3.ajieblogs.eu.org",
-        port: 80,
-        password: "https://dsc.gg/ajidevserver",
+        name: "Catfein DE",
+        host: "lavalink.alfari.id",
+        port: 443,
+        password: "catfein",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
-        secure: false
+        secure: true
 }
  ]
 }
